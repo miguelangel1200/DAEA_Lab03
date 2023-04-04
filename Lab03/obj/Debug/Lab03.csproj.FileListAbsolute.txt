@@ -9,3 +9,4 @@ C:\Users\Alumno\Source\Repos\DAEA_Lab03\Lab03\obj\Debug\Lab03.csproj.GenerateRes
 C:\Users\Alumno\Source\Repos\DAEA_Lab03\Lab03\obj\Debug\Lab03.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\Source\Repos\DAEA_Lab03\Lab03\obj\Debug\Lab03.exe
 C:\Users\Alumno\Source\Repos\DAEA_Lab03\Lab03\obj\Debug\Lab03.pdb
+C:\Users\Alumno\Source\Repos\DAEA_Lab03\Lab03\obj\Debug\Lab03.Persona.resources
