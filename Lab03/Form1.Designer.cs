@@ -37,10 +37,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.chkAutenticacion = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnConectar = new System.Windows.Forms.Button();
+            this.btnDesconectar = new System.Windows.Forms.Button();
+            this.btnPersonas = new System.Windows.Forms.Button();
+            this.btnEstado = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtServidor
@@ -122,52 +122,56 @@
             this.chkAutenticacion.TabIndex = 8;
             this.chkAutenticacion.Text = "checkBox1";
             this.chkAutenticacion.UseVisualStyleBackColor = true;
+            this.chkAutenticacion.CheckedChanged += new System.EventHandler(this.chkAutenticacion_CheckedChanged);
             // 
-            // button1
+            // btnConectar
             // 
-            this.button1.Location = new System.Drawing.Point(116, 316);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(99, 23);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Conectar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnConectar.Location = new System.Drawing.Point(116, 316);
+            this.btnConectar.Name = "btnConectar";
+            this.btnConectar.Size = new System.Drawing.Size(99, 23);
+            this.btnConectar.TabIndex = 9;
+            this.btnConectar.Text = "Conectar";
+            this.btnConectar.UseVisualStyleBackColor = true;
+            this.btnConectar.Click += new System.EventHandler(this.btnConectar_Click);
             // 
-            // button2
+            // btnDesconectar
             // 
-            this.button2.Location = new System.Drawing.Point(221, 316);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(97, 23);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Estado";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnDesconectar.Location = new System.Drawing.Point(328, 316);
+            this.btnDesconectar.Name = "btnDesconectar";
+            this.btnDesconectar.Size = new System.Drawing.Size(101, 23);
+            this.btnDesconectar.TabIndex = 11;
+            this.btnDesconectar.Text = "Desconectar";
+            this.btnDesconectar.UseVisualStyleBackColor = true;
+            this.btnDesconectar.Click += new System.EventHandler(this.btnDesconectar_Click);
             // 
-            // button3
+            // btnPersonas
             // 
-            this.button3.Location = new System.Drawing.Point(328, 316);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(101, 23);
-            this.button3.TabIndex = 11;
-            this.button3.Text = "Desconectar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnPersonas.Location = new System.Drawing.Point(221, 360);
+            this.btnPersonas.Name = "btnPersonas";
+            this.btnPersonas.Size = new System.Drawing.Size(97, 23);
+            this.btnPersonas.TabIndex = 12;
+            this.btnPersonas.Text = "Personas";
+            this.btnPersonas.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnEstado
             // 
-            this.button4.Location = new System.Drawing.Point(221, 360);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(97, 23);
-            this.button4.TabIndex = 12;
-            this.button4.Text = "Personas";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnEstado.Location = new System.Drawing.Point(223, 316);
+            this.btnEstado.Name = "btnEstado";
+            this.btnEstado.Size = new System.Drawing.Size(99, 23);
+            this.btnEstado.TabIndex = 13;
+            this.btnEstado.Text = "Estado";
+            this.btnEstado.UseVisualStyleBackColor = true;
+            this.btnEstado.Click += new System.EventHandler(this.btnEstado_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnEstado);
+            this.Controls.Add(this.btnPersonas);
+            this.Controls.Add(this.btnDesconectar);
+            this.Controls.Add(this.btnConectar);
             this.Controls.Add(this.chkAutenticacion);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -195,10 +199,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.CheckBox chkAutenticacion;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnConectar;
+        private System.Windows.Forms.Button btnDesconectar;
+        private System.Windows.Forms.Button btnPersonas;
+        private System.Windows.Forms.Button btnEstado;
     }
 }
 
