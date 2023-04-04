@@ -104,5 +104,7 @@ namespace Lab03
                 txtPassword.Enabled = true;
             }
         }
+
+        
     }
 }
